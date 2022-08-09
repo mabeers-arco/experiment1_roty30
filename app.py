@@ -14,7 +14,7 @@ import pickle
 
 # dataset_path = './data/trial_dataset.pickle'
 # dataset_path = './data/experiment1.pickle'
-dataset_path = "./data/exp1ty30.pickle"
+dataset_path = "./assets/exp1ty30.pickle"
 with open(dataset_path, "rb") as f:
     dataset = pickle.load(f)
 
